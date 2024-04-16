@@ -1,0 +1,19 @@
+.유독물창고 {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    outline: solid black 1px;
+    gap: 5px;
+    
+}
+.lack {
+    display: grid;
+    outline: solid black 0.5px;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.can{
+    
+}
