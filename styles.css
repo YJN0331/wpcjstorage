@@ -1,19 +1,32 @@
 .유독물창고 {
+    height: 90VH;
+    width: 90VW;
     display: grid;
     text-align: center;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    outline: solid black 1px;
-    gap: 5px;
     
+    grid-template-rows: repeat(4, 2fr 0.3fr);
+    grid-template-columns: repeat(7, 1fr);
+    outline: solid black 1px;
 }
+
 .lack {
+    
     display: grid;
     outline: solid black 0.5px;
     grid-template-rows: 1fr 1fr ;
     grid-template-columns: 1fr 1fr ;
+    align-items: center;
+}
+
+.lackname{
+    text-align: center;
+    outline: solid black 0.5px;
 }
 
 .can{
-    
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    outline: dotted black 0.5px ;
+    align-items: center;
 }
