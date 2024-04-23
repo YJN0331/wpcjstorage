@@ -23,9 +23,9 @@
     display: grid;
     text-align: center;
     
-    grid-template-rows: repeat(6, 2fr 0.3fr);
+    grid-template-rows: repeat(5, 2fr 0.3fr);
     grid-template-columns: repeat(4, 1fr);
-    /* outline: solid black 0.5px; */
+    
 }
 
 #rightToxic {
@@ -42,11 +42,11 @@
 
 .toxic {
     justify-content: center;
-
+    outline: solid darkslategray 0.1px;
 }
 .lack {    
     display: grid;
-    outline: solid black 0.5px;
+    outline: solid gray 0.1px;
     grid-template-rows: 1fr 1fr ;
     grid-template-columns: 1fr 1fr ;
     align-items: center;
@@ -55,12 +55,13 @@
 
 .lackname{
     text-align: center;
-    outline: solid black 0.5px;
+    outline: solid black 0.1px;
 }
 
 .can{
     height: 100%;
     width: 100%;
+    margin: 0.5px;
     text-align: center;
     outline: dotted black 0.5px ;
     align-items: center;
