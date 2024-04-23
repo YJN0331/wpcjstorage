@@ -1,16 +1,46 @@
-.유독물창고 {
-    height: 90VH;
-    width: 90VW;
+.container{
+    margin:auto;
+    text-align: center;
+}
+
+
+#leftToxic {
+    height: 85VH;
+    width: 95VW;
+    margin:auto;
     display: grid;
     text-align: center;
     
     grid-template-rows: repeat(4, 2fr 0.3fr);
-    grid-template-columns: repeat(7, 1fr);
-    outline: solid black 1px;
+    grid-template-columns: repeat(5, 1fr);
+    outline: solid black 0.5px;
 }
 
-.lack {
+#midToxic {
+    height: 95VH;
+    width: 95VW;
+    margin:auto;
+    display: grid;
+    text-align: center;
     
+    grid-template-rows: repeat(6, 2fr 0.3fr);
+    grid-template-columns: repeat(4, 1fr);
+    outline: solid black 0.5px;
+}
+
+#rightToxic {
+    height: 90VH;
+    width: 90VW;
+    margin:auto;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(4, 2fr 0.3fr);
+    grid-template-columns: repeat(6, 1fr);
+    outline: solid black 0.5px;
+}
+
+.lack {    
     display: grid;
     outline: solid black 0.5px;
     grid-template-rows: 1fr 1fr ;
@@ -29,4 +59,8 @@
     text-align: center;
     outline: dotted black 0.5px ;
     align-items: center;
+}
+
+.outLine {
+    height:50px;
 }
