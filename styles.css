@@ -40,12 +40,17 @@
     outline: solid black 0.5px;
 }
 
+.toxic {
+    justify-content: center;
+
+}
 .lack {    
     display: grid;
     outline: solid black 0.5px;
     grid-template-rows: 1fr 1fr ;
     grid-template-columns: 1fr 1fr ;
     align-items: center;
+    font-size: medium;
 }
 
 .lackname{
