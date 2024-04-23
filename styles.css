@@ -50,7 +50,7 @@
     grid-template-rows: 1fr 1fr ;
     grid-template-columns: 1fr 1fr ;
     align-items: center;
-    font-size: medium;
+    
 }
 
 .lackname{
@@ -64,6 +64,8 @@
     text-align: center;
     outline: dotted black 0.5px ;
     align-items: center;
+    word-break: break-all;
+    font-size:  0.6em;
 }
 
 .outLine {
