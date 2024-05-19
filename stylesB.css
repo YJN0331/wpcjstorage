@@ -1,0 +1,74 @@
+.container{
+    margin:auto;
+    text-align: center;
+}
+
+
+#leftToxic {
+    height: 85VH;
+    width: 95VW;
+    margin:auto;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(4, 2fr 0.3fr);
+    grid-template-columns: repeat(5, 1fr);
+    /* outline: solid black 0.5px; */
+}
+
+#midToxic {
+    height: 95VH;
+    width: 95VW;
+    margin:auto;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(5, 2fr 0.3fr);
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+#rightToxic {
+    height: 90VH;
+    width: 90VW;
+    margin:auto;
+    display: grid;
+    text-align: center;
+    
+    grid-template-rows: repeat(4, 2fr 0.3fr);
+    grid-template-columns: repeat(6, 1fr);
+    /* outline: solid black 0.5px; */
+}
+
+.toxic {
+    justify-content: center;
+    outline: solid darkslategray 0.1px;
+}
+.lack {    
+    display: grid;
+    outline: solid gray 0.1px;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    
+}
+
+.lackname{
+    text-align: center;
+    outline: solid black 0.1px;
+}
+
+.can{
+    height: 100%;
+    width: 100%;
+    margin: 0.5px;
+    text-align: center;
+    outline: dotted black 0.5px ;
+    align-items: center;
+    word-break: break-all;
+    font-size:  0.6em;
+}
+
+.outLine {
+    height:50px;
+}
